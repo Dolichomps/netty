@@ -6,3 +6,11 @@ export_presets.cfg
 
 # Mono-specific ignores
 .mono/
+Control.gd
+default_env.tres
+godot.x11.opt.tools.64
+icon.png
+icon.png.import
+placeholder.tscn
+project.godot
+Test.tscn
