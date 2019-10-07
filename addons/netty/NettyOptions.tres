@@ -1,7 +1,6 @@
-[gd_resource type="Resource" load_steps=4 format=2]
+[gd_resource type="Resource" load_steps=3 format=2]
 
 [ext_resource path="res://addons/netty/resources/netty_icon.svg" type="Texture" id=1]
-[ext_resource path="res://placeholder.tscn" type="PackedScene" id=2]
 [ext_resource path="res://addons/netty/core/netty_options.gd" type="Script" id=3]
 
 [resource]
@@ -12,5 +11,4 @@ __meta__ = {
 server_ip = "127.0.0.1"
 server_port = 31400
 max_peers = 1
-game_scene = ExtResource( 2 )
-player_scenes = [ ExtResource( 2 ) ]
+player_scenes = [ null ]
